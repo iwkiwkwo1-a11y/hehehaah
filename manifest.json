@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Hehehaah Economy Shop",
+    "description": "Bedrock BP economy foundation with sell-all, physical sell chest, and shop UI.",
+    "uuid": "0f8b8fd5-8d58-4663-a8ec-0d424d75e11c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 30]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "2c1a8451-b30d-4623-b960-2d2e8f2f4c75",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
